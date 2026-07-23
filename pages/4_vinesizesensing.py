@@ -4,3 +4,5 @@ from pathlib import Path
 st.set_page_config(layout="wide")
 
 st.title("Vine Size Sensing")
+
+functions.page_links()
