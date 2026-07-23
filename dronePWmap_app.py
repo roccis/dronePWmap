@@ -25,3 +25,5 @@ def page_links():
     st.page_link('pages/2_dronesoftwareselect.py', label='Drone Software Selection', icon='💻')
     st.page_link('pages/3_howtoguides.py', label='How-To Guides', icon='📖')
     st.page_link('pages/4_vinesizesensing.py', label='Vine Size Sensing for Crop Load Management', icon='🍇')
+
+page_links()
