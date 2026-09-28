@@ -65,11 +65,13 @@ st.write(
 st.write(
     "1. Go to the [IACRA website](https://iacra.faa.gov/IACRA/Default.aspx) and click on 'Register'.\n"
     "2. Check the box for Applicant, Agree to TOS and Continue.\n"
-    "3. If you aren't already a Pilot, you will skip the Airmen Certificate Number and Date of Issuance for now.\n"
+    "3. If you aren't already a pilot, you will skip the Airmen Certificate Number and Date of Issuance for now.\n"
     "4. Fill in the required personal information, including your name, date of birth, sex, and email address.\n"
     "5. Complete the two security questions and answers.\n"
     "6. Create a username and password for your account.\n"
     "7. Press Register.\n"
-    "8. Once your account is created, log in to IACRA and complete the application for a Remote Pilot Certificate.\n"
-    "9. After submitting your application, you will receive an FAA Tracking Number (FTN), which you will need to register for the knowledge test."
+    "8. IACRA will display your FTN (FAA Tracking Number). Please write this number down; it will also be emailed to you. "
+    "This number is your unique identifier, and for most application types you must provide it to your Instructor and/or "
+    "Certifying Officer to complete an application.\n"
+    "9. Once your account is created, log in to IACRA and complete the application for a Remote Pilot Certificate.\n"
 )
