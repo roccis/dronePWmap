@@ -11,5 +11,5 @@ functions.page_links()
 st.write(
     "[Steps to becoming a Certified Remote Pilot](https://www.faa.gov/uas/commercial_operators) for commercial operations are "
     "provided by the Federal Aviation Administraion (FAA). The goal of this module is to provide a simplified overview "
-    "intended specifically for interested vineyard operators in New York State.
+    "intended specifically for interested vineyard operators in New York State."
 )
