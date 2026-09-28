@@ -21,7 +21,6 @@ st.markdown("""
 """)
 
 st.header("Overview", anchor="overview")
-# Add section content here
 
 st.subheader(
     "[Steps to becoming a Certified Remote Pilot](https://www.faa.gov/uas/commercial_operators) for commercial operations are "
@@ -41,5 +40,16 @@ st.write(
     )
 
 st.header("Eligibility", anchor="eligibility")
-# Add section content here
+
+st.subheader(
+    "To be eligible for the Remote Pilot Certificate, you must meet the following requirements:"
+    )
+st.write(
+    "- Be at least 16 years old\n"
+    "- Be able to read, write, speak, and understand English\n"
+    "- Be in a physical and mental condition to safely operate a drone\n"
+    "- Pass the FAA's Aeronautical Knowledge Test (Part 107 test)\n"
+    )
+
+
 
