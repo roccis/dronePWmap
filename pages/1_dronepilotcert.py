@@ -23,7 +23,7 @@ st.markdown("""
 st.header("Overview", anchor="overview")
 # Add section content here
 
-st.header(
+st.subheader(
     "[Steps to becoming a Certified Remote Pilot](https://www.faa.gov/uas/commercial_operators) for commercial operations are "
     "provided by the Federal Aviation Administraion (FAA). The goal of this module is to provide a simplified overview "
     "intended specifically for interested vineyard operators in New York State."
