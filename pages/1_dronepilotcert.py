@@ -18,3 +18,9 @@ st.write(
     "As a vineyard owner or employee operating a drone for commercial purposes, "
     " you are required to operate under Part 107 rules."
     )
+st.subheader("What is Part 107?")
+st.write(
+    "Part 107 is the set of rules and regulations that govern the operation of small unmanned aircraft systems (sUAS) for commercial purposes in the United States. "
+    "It covers various aspects of drone operation, including pilot certification, operational limitations, and safety requirements. "
+    "To legally operate a drone for commercial purposes, you must obtain a Remote Pilot Certificate from the Federal Aviation Administration (FAA) by passing the Part 107 Aeronautical Knowledge Test."
+    )
