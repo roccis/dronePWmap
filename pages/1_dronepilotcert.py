@@ -51,5 +51,11 @@ st.write(
     "- Pass the FAA's Aeronautical Knowledge Test (Part 107 test)\n"
     )
 
-
+st.header("Create an FAA account", anchor="create-an-faa-account")
+st.subheader(
+    "Before you can take the Part 107 test, you need to create an account with Integrated Airman Certification and Rating Application (IACRA). IACRA is the web-based "
+    "certification/rating application that guides the user through the FAA's airman application process. IACRA helps ensure applicants meet regulatory and policy "
+    "requirements through the use of extensive data validation. It also uses electronic signatures to protect the information's integrity, eliminates paper forms, "
+    "and prints temporary certificates. Follow these steps:"
+    )
 
