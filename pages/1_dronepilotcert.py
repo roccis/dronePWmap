@@ -54,7 +54,10 @@ st.write(
 st.header("Create an FAA account", anchor="create-an-faa-account")
 st.subheader(
     "You need to create an [Integrated Airman Certification and Rating Application (IACRA)](https://iacra.faa.gov/IACRA/Default.aspx) "
-    "profile prior to registering for the knowledge test. IACRA is the web-based certification/rating application that guides "
+    "profile prior to registering for the knowledge test."
+    )
+st.write(
+    "IACRA is the web-based certification/rating application that guides "
     "the user through the FAA's airman application process. IACRA helps ensure applicants meet regulatory and policy requirements "
     "through the use of extensive data validation. It also uses electronic signatures to protect the information's integrity, "
     "eliminates paper forms, and prints temporary certificates. Follow these steps:"
