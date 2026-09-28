@@ -53,7 +53,7 @@ st.write(
 
 st.header("Create an FAA account", anchor="create-an-faa-account")
 st.subheader(
-    "You need to create an [Integrated Airman Certification and Rating Application (IACRA)](https://iacra.faa.gov/IACRA/Default.aspx) "
+    "Obtain an FAA Tracking Number (FTN) by creating an [Integrated Airman Certification and Rating Application (IACRA)](https://iacra.faa.gov/IACRA/Default.aspx) "
     "profile prior to registering for the knowledge test."
     )
 st.write(
@@ -62,4 +62,14 @@ st.write(
     "through the use of extensive data validation. It also uses electronic signatures to protect the information's integrity, "
     "eliminates paper forms, and prints temporary certificates. Follow these steps:"
     )
-
+st.write(
+    "1. Go to the [IACRA website](https://iacra.faa.gov/IACRA/Default.aspx) and click on 'Register'.\n"
+    "2. Check the box for Applicant, Agree to TOS and Continue.\n"
+    "3. If you aren't already a Pilot, you will skip the Airmen Certificate Number and Date of Issuance for now.\n"
+    "4. Fill in the required personal information, including your name, date of birth, sex, and email address.\n"
+    "5. Complete the two security questions and answers.\n"
+    "6. Create a username and password for your account.\n"
+    "7. Press Register.\n"
+    "8. Once your account is created, log in to IACRA and complete the application for a Remote Pilot Certificate.\n"
+    "9. After submitting your application, you will receive an FAA Tracking Number (FTN), which you will need to register for the knowledge test."
+)
