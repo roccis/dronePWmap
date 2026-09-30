@@ -16,7 +16,7 @@ fs = s3fs.S3FileSystem(key=st.secrets["aws"]["access_key"], secret=st.secrets["a
 bucket_name = st.secrets["aws"]["bucket_name"]
 p = 'images'
 
-st.title("Drone Training Modules for New York State Growers")
-st.markdown("& Vineyard Pruning Weight Case Study")
+st.title("Drone Training Modules for New York State Growers \n"
+         "& Vineyard Pruning Weight Case Study")
 
 functions.page_links()
