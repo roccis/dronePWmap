@@ -92,6 +92,6 @@ st.subheader(
 st.header("Apply for the certificate", anchor="apply-for-the-certificate")
 st.subheader(
     "After passing the knowledge test, you can apply for your Remote Pilot Certificate through IACRA. \n"
-    "You will need to log in to your IACRA account and complete FAA form 8710-13, which includes providing your test results and any other required information. \n"
+    "You will need to log in to your [IACRA] (https://iacra.faa.gov/IACRA/Default.aspx) account and complete FAA form 8710-13, which includes providing your test results and any other required information. \n"
     "Once your application is submitted, the FAA will review it and issue your Remote Pilot Certificate if everything is in order."
     )
