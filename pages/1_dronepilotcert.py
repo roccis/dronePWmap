@@ -74,4 +74,17 @@ st.write(
     "This number is your unique identifier, and for most application types you must provide it to your Instructor and/or "
     "Certifying Officer to complete an application.\n"
     "9. Once your account is created, log in to IACRA and complete the application for a Remote Pilot Certificate.\n"
-)
+    )
+
+st.header("Study for the knowledge test", anchor="study-for-the-knowledge-test")
+st.write(
+    "Before scheduling your knowledge test, you should begin studying for the exam."
+    )
+st.subheader("")
+
+
+st.header("Take the knowledge test", anchor="take-the-knowledge-test")
+st.subheader(
+    "Once you have your FAA Tracking Number you are ready to schedule your exam administered at an FAA-approved knowledge testing center. \n"
+    "You can register and find an approved knowledge testing center near you by [Searching here](https://faa.psiexams.com/faa/login)."
+    )
