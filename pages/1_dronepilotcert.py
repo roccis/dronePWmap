@@ -88,3 +88,10 @@ st.subheader(
     "Once you have your FAA Tracking Number you are ready to schedule your exam administered at an FAA-approved knowledge testing center. \n"
     "You can register and find an approved knowledge testing center near you by [Searching here](https://faa.psiexams.com/faa/login)."
     )
+
+st.header("Apply for the certificate", anchor="apply-for-the-certificate")
+st.subheader(
+    "After passing the knowledge test, you can apply for your Remote Pilot Certificate through IACRA. \n"
+    "You will need to log in to your IACRA account and complete FAA form 8710-13, which includes providing your test results and any other required information. \n"
+    "Once your application is submitted, the FAA will review it and issue your Remote Pilot Certificate if everything is in order."
+    )
