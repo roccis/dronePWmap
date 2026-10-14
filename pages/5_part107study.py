@@ -21,54 +21,54 @@ st.header("Knowledge test topics")
 st.markdown(
     """
 - [Regulations](#regulations)
-- [Airspace classification, operating requirements, and flight restrictions](#airspace-classification)
-- [Aviation weather](#aviation-weather)
-- [Small unmanned aircraft loading](#aircraft-loading)
-- [Emergency procedures](#emergency-procedures)
-- [Crew resource management](#crew-resource-management)
-- [Radio communication procedures](#radio-communication)
-- [Aircraft performance](#aircraft-performance)
-- [Physiological factors affecting pilot performance](#physiological-factors)
-- [Aeronautical decision-making and judgment](#decision-making)
-- [Airport operations](#airport-operations)
-- [Maintenance and preflight inspection procedures](#maintenance-and-preflight)
+- [Airspace Classification, Operating Requirements, and Flight Restricitons](#airspace-classification)
+- [Aviation Weather Sources and Effects of Weather on Small Unmanned Aircraft Performance](#aviation-weather)
+- [Small Unmanned Aircraft Loading](#aircraft-loading)
+- [Emergency Procedures](#emergency-procedures)
+- [Crew Resource Management](#crew-resource-management)
+- [Radio Communication Procedures](#radio-communication)
+- [Determining the Performance of Small Unmanned Aircraft](#aircraft-performance)
+- [Physiological Factors (Including Drugs and Alcohol) Affecting Pilot Performance](#physiological-factors)
+- [Aeronautical Decision-Making and Judgment](#decision-making)
+- [Airport Operations](#airport-operations)
+- [Maintenance and Preflight Inspection Procedures](#maintenance-and-preflight)
 """
 )
 
 st.header("Regulations", anchor="regulations")
 st.write("Review the Part 107 rules and operating limitations that apply to remote pilots.")
 
-st.header("Airspace classification, operating requirements, and flight restrictions", anchor="airspace-classification")
+st.header("Airspace Classification, Operating Requirements, and Flight Restricitons", anchor="airspace-classification")
 st.write("Study airspace classes, how to determine authorization requirements, and where flight restrictions apply.")
 
-st.header("Aviation weather", anchor="aviation-weather")
+st.header("Aviation Weather Sources and Effects of Weather on Small Unmanned Aircraft Performance", anchor="aviation-weather")
 st.write("Review aviation weather reports, forecasts, and how weather conditions affect small unmanned aircraft.")
 
-st.header("Small unmanned aircraft loading", anchor="aircraft-loading")
+st.header("Small Unmanned Aircraft Loading", anchor="aircraft-loading")
 st.write("Understand how loading and weight affect an aircraft's balance and safe operation.")
 
-st.header("Emergency procedures", anchor="emergency-procedures")
+st.header("Emergency Procedures", anchor="emergency-procedures")
 st.write("Study how to respond to abnormal situations and emergencies while maintaining control of the aircraft.")
 
-st.header("Crew resource management", anchor="crew-resource-management")
+st.header("Crew Resource Management", anchor="crew-resource-management")
 st.write("Review effective communication, task management, and coordination with people supporting a flight.")
 
-st.header("Radio communication procedures", anchor="radio-communication")
+st.header("Radio Communication Procedures", anchor="radio-communication")
 st.write("Learn the communication procedures and terminology relevant to small unmanned aircraft operations.")
 
-st.header("Aircraft performance", anchor="aircraft-performance")
+st.header("Determining the Performance of Small Unmanned Aircraft", anchor="aircraft-performance")
 st.write("Review factors that affect small unmanned aircraft performance and how to make performance-related decisions.")
 
-st.header("Physiological factors affecting pilot performance", anchor="physiological-factors")
+st.header("Physiological Factors (Including Drugs and Alcohol) Affecting Pilot Performance", anchor="physiological-factors")
 st.write("Study how fatigue, stress, medication, alcohol, and other physiological factors can affect safe pilot performance.")
 
-st.header("Aeronautical decision-making and judgment", anchor="decision-making")
+st.header("Aeronautical Decision-Making and Judgment", anchor="decision-making")
 st.write("Review risk assessment and sound aeronautical decision-making before and during a flight.")
 
-st.header("Airport operations", anchor="airport-operations")
+st.header("Airport Operations", anchor="airport-operations")
 st.write("Study airport environments, traffic patterns, and safe operations near airports.")
 
-st.header("Maintenance and preflight inspection procedures", anchor="maintenance-and-preflight")
+st.header("Maintenance and Preflight Inspection Procedures", anchor="maintenance-and-preflight")
 st.write("Review aircraft maintenance responsibilities and the checks to complete before flight.")
 
 st.page_link(
