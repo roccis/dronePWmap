@@ -84,6 +84,21 @@ st.write(
     "The FAA provides a free [Part 107 Study Guide](https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf) \n"
     "that covers the topics you will be tested on. Additionally, there are many online courses and resources available to help you prepare for the exam."
 )
+st.write(
+    "Topics covered in the Part 107 Knowledge Test include:\n"
+    "- Regulations\n"
+    "- Airspace Classification, Operating Requirements, and Flight Restricitons\n"
+    "- Aviation Weather Sources and Effects of Weather on Small Unmanned Aircraft Performance\n"
+    "- Small Unmanned Aircraft Loading\n"
+    "- Emergency Procedures\n"
+    "- Crew Resource Management\n"
+    "- Radio Communication Procedures\n"
+    "- Determining the Performance of Small Unmanned Aircraft\n"
+    "- Physiological Factors (Including Drugs and Alcohol) Affecting Pilot Performance\n"
+    "- Aeronautical Decision-Making and Judgment\n"
+    "- Airport Operations\n"
+    "- Maintenance and Preflight Inspection Procedures\n"
+)
 
 st.header("Take the knowledge test", anchor="take-the-knowledge-test")
 st.subheader(
