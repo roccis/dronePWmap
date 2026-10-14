@@ -36,7 +36,8 @@ st.markdown(
 )
 
 st.header("Regulations", anchor="regulations")
-st.write("Review the Part 107 rules and operating limitations that apply to remote pilots.")
+st.write("You should be familiar with applicable regulations mentioned in the [Code of Federal Regulations Title 14 Part 107](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107),\n"
+         "as well as [FAA Advisory Circular 107-2](http://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2.pdf).")
 
 st.header("Airspace Classification, Operating Requirements, and Flight Restricitons", anchor="airspace-classification")
 st.write("Study airspace classes, how to determine authorization requirements, and where flight restrictions apply.")
