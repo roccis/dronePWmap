@@ -80,7 +80,6 @@ st.header("Study for the knowledge test", anchor="study-for-the-knowledge-test")
 st.write(
     "Before scheduling your knowledge test, you should begin studying for the exam."
     )
-st.subheader("")
 st.write(
     "The FAA provides a free [Part 107 Study Guide](https://www.faa.gov/sites/faa.gov/files/uas/resources/policy_library/remote_pilot_study_guide.pdf) \n"
     "that covers the topics you will be tested on. Additionally, there are many online courses and resources available to help you prepare for the exam."
