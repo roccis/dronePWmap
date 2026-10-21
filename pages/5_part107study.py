@@ -18,7 +18,7 @@ def load_airspace_image():
         Bucket=aws["bucket_name"],
         Key="images/Airspace-Classification-by-FAA.png",
     )
-    return image_object["Body"].read()
+    return image_object#["Body"].read()
 
 st.title("Part 107 Study Materials")
 functions.page_links()
