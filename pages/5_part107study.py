@@ -37,10 +37,12 @@ st.markdown(
 
 st.header("Regulations", anchor="regulations")
 st.write("You should be familiar with applicable regulations mentioned in the [Code of Federal Regulations Title 14 Part 107](https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-107),\n"
-         "as well as [FAA Advisory Circular 107-2](http://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2.pdf).")
+         "as well as [FAA Advisory Circular 107-2](http://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_107-2.pdf). These might be a bit tedious to read through and they are more or less covered below.")
 
 st.header("Airspace Classification, Operating Requirements, and Flight Restricitons", anchor="airspace-classification")
-st.write("Study airspace classes, how to determine authorization requirements, and where flight restrictions apply.")
+st.write("Ideally, NY State growers will be flying in uncontrolled Class G airspace, but you should be familiar with the different \n"
+        "airspace classes and their operating requirements and restrictions. Regardless you will need to know how to read sectional \n"
+        "charts and understand the different airspace classes, their operating requirements, and flight restrictions.")
 
 st.header("Aviation Weather Sources and Effects of Weather on Small Unmanned Aircraft Performance", anchor="aviation-weather")
 st.write("Review aviation weather reports, forecasts, and how weather conditions affect small unmanned aircraft.")
