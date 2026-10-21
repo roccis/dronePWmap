@@ -46,6 +46,16 @@ st.write("Ideally, NY State growers will be flying in uncontrolled Class G airsp
         "airspace classes and their operating requirements and restrictions. Regardless you will need to know how to read sectional \n"
         "charts and understand the different airspace classes, their operating requirements, and flight restrictions to pass the certification exam.")
 
+st.write("First some acronyms you should know:")
+st.markdown(
+    """
+- **MSL**: Mean Sea Level. This is the altitude above sea level, which is the standard reference for aviation altitudes.
+- **AGL**: Above Ground Level. This is the altitude above the ground directly below the aircraft. For example, if you are flying at 400 feet AGL, you are 400 feet above the ground, regardless of the elevation of the terrain.
+- **IFR**: Instrument Flight Rules. This is a set of regulations that govern flight under conditions where pilots must rely on instruments for navigation and control, typically in poor visibility or weather conditions.
+- **VFR**: Visual Flight Rules. This is a set of regulations that govern flight under conditions where pilots can navigate and control the aircraft primarily by visual reference to the ground and other landmarks, typically in good weather conditions.
+"""
+)
+
 s3_client = boto3.client('s3',aws_access_key_id = st.secrets["aws"]["access_key"], aws_secret_access_key = st.secrets["aws"]["secret_key"],region_name = st.secrets["aws"]["region"])
 fs = s3fs.S3FileSystem(key=st.secrets["aws"]["access_key"], secret=st.secrets["aws"]["secret_key"])
 bucket_name = st.secrets["aws"]["bucket_name"]
@@ -66,6 +76,8 @@ st.markdown(
 **Important:** These are general descriptions, not a substitute for an aeronautical chart. Airspace dimensions and floors can vary by location. Check current FAA charts and restrictions before each flight. Prior FAA authorization is required for Part 107 operations in Class B, C, and D airspace and in Class E airspace designated for an airport. Use FAA-approved tools such as LAANC where available.
 """
 )
+
+
 
 st.header("Aviation Weather Sources and Effects of Weather on Small Unmanned Aircraft Performance", anchor="aviation-weather")
 st.write("Review aviation weather reports, forecasts, and how weather conditions affect small unmanned aircraft.")
