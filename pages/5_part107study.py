@@ -50,7 +50,7 @@ s3_client = boto3.client('s3',aws_access_key_id = st.secrets["aws"]["access_key"
 fs = s3fs.S3FileSystem(key=st.secrets["aws"]["access_key"], secret=st.secrets["aws"]["secret_key"])
 bucket_name = st.secrets["aws"]["bucket_name"]
 airspace_class_img = s3_client.generate_presigned_url('get_object', Params={'Bucket': bucket_name, 'Key': 'images/Airspace-Classification-by-FAA.png'}, ExpiresIn=3600)
-st.image(airspace_class_img, width="stretch")
+st.image(airspace_class_img)
 
 st.markdown(
     """
