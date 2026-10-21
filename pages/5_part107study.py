@@ -1,7 +1,24 @@
 import streamlit as st
+import boto3
 import functions
 
 st.set_page_config(page_title="Part 107 Study Materials", layout="wide")
+
+
+@st.cache_data(ttl=3600)
+def load_airspace_image():
+    aws = st.secrets["aws"]
+    s3_client = boto3.client(
+        "s3",
+        aws_access_key_id=aws["access_key"],
+        aws_secret_access_key=aws["secret_key"],
+        region_name=aws["region"],
+    )
+    image_object = s3_client.get_object(
+        Bucket=aws["bucket_name"],
+        Key="images/Airspace-Classification-by-FAA.png",
+    )
+    return image_object["Body"].read()
 
 st.title("Part 107 Study Materials")
 functions.page_links()
@@ -43,6 +60,20 @@ st.header("Airspace Classification, Operating Requirements, and Flight Restricit
 st.write("Ideally, NY State growers will be flying in uncontrolled Class G airspace, but you should be familiar with the different \n"
         "airspace classes and their operating requirements and restrictions. Regardless you will need to know how to read sectional \n"
         "charts and understand the different airspace classes, their operating requirements, and flight restrictions to pass the certification exam.")
+
+try:
+    st.image(
+        load_airspace_image(),
+        caption="FAA airspace classification",
+        use_container_width=True,
+    )
+except Exception:
+    st.warning(
+        "Unable to load the airspace classification image. Check that "
+        "images/Airspace-Classification-by-FAA.png exists in the configured "
+        "S3 bucket and that the app has permission to read it."
+    )
+
 st.markdown(
     """
 | Class | Typical vertical limits | Key particulars | Part 107 pilot takeaway |
